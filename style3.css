@@ -1,0 +1,404 @@
+@media screen and (max-width:1024px) {
+    .welcome-header {
+        padding: 10px;
+    }
+
+    .welcome-header svg {
+        width: 70px;
+        height: 70px
+    }
+
+    .welcome-header h1 {
+        font-size: 38px;
+    }
+
+    .welcome-header p {
+        font-size: 18px;
+    }
+
+    .instructions {
+        padding: 15px;
+    }
+
+    .instructions h2 {
+        font-size: 20px;
+    }
+
+    .welcome-container {
+        padding: 40px;
+        height: 590px;
+    }
+
+    .instruction-item svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .instruction-item p {
+        font-size: 14px;
+    }
+
+    .start-btn {
+        margin-top: -10px;
+    }
+
+    .auth-container {
+        height: 580px;
+        margin-top: -10px;
+        padding: 35px;
+    }
+
+    .tab-btn {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .auth-form h2 {
+        font-size: 25px;
+    }
+
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .form-group input {
+        padding: 12px;
+    }
+
+    .quiz-card-body {
+        padding: 20px;
+    }
+
+    .options {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .result-container {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+    }
+
+    .result-stats {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .result-container {
+        padding: 35px;
+    }
+
+
+    .result-btn.end {
+        margin-left: 330px;
+    }
+
+    .result-btn.restart {
+        position: absolute;
+        width: 30%;
+    }
+
+    .dashboard-actions {
+        margin-left: 220px;
+        margin-top: -450px;
+    }
+
+    .back-auth-btn {
+        font-size: 14px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #dashboardScreen {
+        overflow: auto;
+        height: 0;
+    }
+
+    .result-btn.restart {
+        width: 40%;
+    }
+
+    .dashboard-actions {
+        margin-left: 460px;
+        margin-top: -880px;
+    }
+}
+
+
+@media screen and (max-width: 425.6px) {
+
+    .welcome-container {
+        width: 370px;
+        padding: 40px;
+    }
+
+    .welcome-header svg {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .welcome-header h1 {
+        font-size: 30px;
+    }
+
+    .welcome-header p {
+        font-size: 16px;
+    }
+
+    .start-btn {
+        margin-top: -40px;
+        padding: 10px;
+    }
+
+    .timer {
+        margin-left: 18px;
+    }
+
+    .result-header {
+        width: 100%;
+        height: 200px;
+    }
+
+    .result-header svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .result-header h1 {
+        font-size: 25px;
+    }
+
+    .result-stats {
+        width: 100px;
+        margin-top: -20px;
+        height: 200px;
+    }
+
+    .stat-card {
+        width: 300px;
+        padding: 10px;
+        margin-left: -45px;
+    }
+
+    .result-container {
+        display: inline;
+        padding: 25px;
+        margin-top: -30px;
+    }
+
+    .result-btn.restart {
+        margin-top: 10px;
+        width: 140px;
+        margin-left: 20px;
+    }
+
+    .result-btn.end {
+        margin-left: 170px;
+        margin-top: 10px;
+        width: 140px;
+    }
+
+    .options {
+        font-size: 14px;
+    }
+
+    .option {
+        padding: 15px;
+    }
+
+    .timer {
+        font-size: 20px;
+        margin-left: 2px;
+    }
+
+    .quiz-btn.next {
+        padding: 10px;
+    }
+
+    .question-text {
+        font-size: 18px;
+    }
+
+
+    .info-tag {
+        margin-left: -18px;
+    }
+
+    .dashboard-actions {
+        margin-left: 1010px;
+        margin-top: -1260px;
+    }
+
+}
+
+@media screen and (max-width:375.2px) {
+
+    body {
+        width: 100vw;
+    }
+
+    .welcome-header svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .welcome-header h1 {
+        font-size: 23px;
+    }
+
+    .welcome-container {
+        width: 340px;
+        height: 600px;
+    }
+
+
+    .instructions {
+        margin-top: -16px;
+    }
+
+    .instruction-item p {
+        line-height: 1.5;
+    }
+
+    .instructions h2 {
+        font-size: 16px;
+    }
+
+    .quiz-container {
+        padding: 30px;
+    }
+
+    .options {
+        font-size: 12px;
+    }
+
+    .option {
+        padding: 15px;
+    }
+
+
+    .stat-card {
+        width: 260px;
+        margin-left: -46px;
+    }
+
+    .result-btn.restart {
+        width: 30%;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .result-btn.end {
+        margin-left: 140px;
+        width: 40%;
+        font-size: 12px;
+    }
+
+    .quiz-btn.next {
+        padding: 10px;
+    }
+
+    .question-text {
+        font-size: 18px;
+    }
+
+    .timer {
+        margin-left: 2px;
+        margin-bottom: -10px;
+    }
+
+    .info-tag {
+        margin-left: -18px;
+    }
+
+     .dashboard-actions {
+        margin-left: 1010px;
+        margin-top: -1260px;
+    }
+}
+
+
+
+@media screen and (max-width:320px) {
+    body {
+        width: 100vw;
+    }
+
+    .welcome-container {
+        width: 300px;
+    }
+
+    .welcome-header svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .welcome-header h1 {
+        font-size: 20px;
+    }
+
+    .welcome-header p {
+        font-size: 14px;
+    }
+
+    .instructions h2 {
+        font-size: 16px;
+    }
+
+    .instruction-item p {
+        line-height: 1.5;
+    }
+
+    .quiz-cards {
+        margin-left: -20px;
+    }
+
+    .type-tag {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .timer {
+        font-size: 20px;
+        margin-bottom: -20px;
+    }
+
+    .question-text {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .stat-card {
+        width: 230px;
+        margin-left: -50px;
+    }
+
+    .result-btn.restart {
+        font-size: 12px;
+        width: 33%;
+        margin-left: 5px;
+    }
+
+    .result-btn.end {
+        width: 45%;
+        margin-left: 120px;
+    }
+
+
+    .info-tag {
+        margin-left: 0px;
+    }
+
+    .question-tag {
+        margin-left: -10px;
+    }
+
+     .dashboard-actions {
+        margin-left: 1010px;
+        margin-top: -1280px;
+    }
+}
